@@ -14,13 +14,13 @@ public class Assertations_Chrome_01 {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver","E:\\Selenium Jars\\Selenium jar\\Browerdrivers\\ChromeDriver\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","E:\\Selenium Jars\\Selenium jar\\Browerdrivers\\ChromeDriverLtst\\chromedriver.exe");
 		
 		ChromeDriver driver= new ChromeDriver();
-		
 		driver.get("https://www.spicejet.com/default.aspx");
 		
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		//check boxes
 		

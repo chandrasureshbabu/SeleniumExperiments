@@ -23,6 +23,7 @@ public class Assertations_IE_03 {
 		driver.get("https://www.spicejet.com/default.aspx");
 		
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		//check boxes
 		
