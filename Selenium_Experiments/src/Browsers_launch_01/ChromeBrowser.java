@@ -7,7 +7,7 @@ public class ChromeBrowser {
 	public static void main(String[] args) {
 		
 		
-		System.setProperty("webdriver.chrome.driver","E:\\Selenium Jars\\Selenium jar\\Browerdrivers\\ChromeDriverLtst\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\Selenium Jars\\Selenium jar\\Browerdrivers\\chromedriver.exe");
 		
 		ChromeDriver driver= new ChromeDriver();
 		driver.get("http://way2automation.com");
